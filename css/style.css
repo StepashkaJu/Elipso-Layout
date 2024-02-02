@@ -1,0 +1,26 @@
+* {
+    /* The dimensions of the element are calculated as follows: width = border + padding + width of the content, and height = border + padding + height of the content. */
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: "Nunito", sans-serif;
+    color: #716C80;
+    /* regarding the size in the tag html, 1.8*10=18*/
+    /* to scale we use rem instead px */
+    font-size: 1.8rem;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: #554d89;
+}
