@@ -24,3 +24,137 @@ h3 {
     font-weight: bold;
     color: #554d89;
 }
+
+.btn {
+    border: none;
+    text-decoration: none;
+    border-radius: 2rem;
+    height: 4rem;
+    padding: 0 1.7rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.btn-light {
+    border: solid 1px #6852ed;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #6852ed;
+    background-color: transparent;
+    text-align: center;
+}
+
+.header-actions__text {
+    display: inline-block;
+    margin: 0 0.8rem;
+}
+
+.wrapper {
+    width: 1143px;
+    margin: 0 auto;
+}
+
+.divider {
+    border: none;
+    border-bottom: 1px solid #e1e4ed;
+}
+
+.top-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2.8rem 0 2.5rem;
+}
+
+.top-header__text {
+    font-size: 1.6rem;
+}
+
+.top-header__phone {
+    color: #716C80;
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+.top-header__phone:hover {
+    text-decoration: underline;
+}
+
+.top-header__phone::before {
+    content: "\f095";
+    font-family: "FontAwesome";
+    margin-right: 0.7rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+    align-items: center;
+
+}
+
+ul {
+    list-style: none;
+}
+
+.header__logo {
+    display: block;
+    margin-right: 5.6rem;
+}
+
+.header-navbar {
+    display: flex;
+    align-items: center;
+}
+
+.header__menu {
+    display: flex;
+}
+
+.header__menu-item {
+    margin-right: 3rem;
+    position: relative;
+    padding: 1.8rem 0;
+}
+
+.header__menu-item:last-child {
+    margin-right: 0;
+}
+
+.header__menu-item:nth-child(5):hover .header__submenu {
+    display: block;
+}
+
+.header__submenu {
+    display: none;
+    position: absolute;
+    top: 6rem;
+    left: -3rem;
+    padding: 3rem;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 #e1e4ed;
+    background-color: #fff;
+    font-size: 1.6rem;
+    text-align: left;
+    width: 23.5rem;
+}
+
+.header__submenu>.header__menu-item {
+    padding: 0 0 1rem 0;
+}
+
+.header__menu-link {
+    text-decoration: none;
+    color: #5B5766;
+    font-size: 1.6rem;
+}
+
+.header__menu-link_active {
+    color: #554d89;
+    font-weight: bold;
+}
+
+.header__menu-link:hover {
+    color: #554d89;
+    text-shadow: 0 0 1px #554d89;
+}
