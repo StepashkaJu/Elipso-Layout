@@ -15,6 +15,7 @@ body {
     /* regarding the size in the tag html, 1.8*10=18*/
     /* to scale we use rem instead px */
     font-size: 1.8rem;
+    line-height: 1.5;
 }
 
 h1,
@@ -32,6 +33,7 @@ h3 {
     height: 4rem;
     padding: 0 1.7rem;
     font-family: "Poppins", sans-serif;
+    cursor: pointer;
 }
 
 .btn-light {
@@ -41,6 +43,19 @@ h3 {
     color: #6852ed;
     background-color: transparent;
     text-align: center;
+}
+
+.btn-dark {
+    border: none;
+    font-weight: normal;
+    font-size: 1.6rem;
+    color: #fff;
+    letter-spacing: 0.5px;
+    background-image: linear-gradient(to top, #6852ed, #ba43fc);
+    text-align: center;
+    padding: 1.8rem 3.1rem 1.9rem 3rem;
+    border-radius: 3rem;
+    height: 5rem;
 }
 
 .header-actions__text {
@@ -137,6 +152,7 @@ ul {
     font-size: 1.6rem;
     text-align: left;
     width: 23.5rem;
+    z-index: 1;
 }
 
 .header__submenu>.header__menu-item {
@@ -158,3 +174,83 @@ ul {
     color: #554d89;
     text-shadow: 0 0 1px #554d89;
 }
+
+.stage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10rem;
+    position: relative;
+}
+
+.stage__content {
+    position: relative;
+    top: -4rem;
+    margin-right: 16rem;
+}
+
+.stage__title {
+    font-size: 5rem;
+    line-height: 1.2;
+    margin-bottom: 3.2rem;
+}
+
+.stage__text {
+    color: #5b5766;
+    font-size: 2rem;
+    margin-bottom: 4.5rem;
+}
+
+.stage__actions .btn-dark {
+    margin-right: 3rem;
+}
+
+.link {
+    border: none;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: #554d89;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+}
+
+.link:hover {
+    text-shadow: 0 0 1px #554d89;
+}
+
+.link-arrow::after {
+    content: '\f178';
+    font-family: "FontAwesome";
+    margin-left: 1.5rem;
+}
+
+.btn-bottom {
+    position: absolute;
+    bottom: -9.5rem;
+    left: 45%;
+    background-color: #6852ed;
+    color: #ffffff;
+    width: 11rem;
+    height: 11rem;
+    border-radius: 50%;
+    display: flex;
+    text-decoration: none;
+}
+
+.btn-bottom>i {
+    margin: auto;
+    font-size: 4rem;
+}
+
+.hero {
+    z-index: 10;
+}
+
+.hero-shape {
+    position: absolute;
+    bottom: -5.5rem;
+    right: 5.5rem;
+}
+
+/*transform: translateX(-50%); */
