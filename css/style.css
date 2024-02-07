@@ -68,6 +68,12 @@ h3 {
     margin: 0 auto;
 }
 
+/* .background {
+    max-width: 1143px;
+    height: 480px;
+    margin-top: 14.4rem;
+} */
+
 .divider {
     border: none;
     border-bottom: 1px solid #e1e4ed;
@@ -189,6 +195,10 @@ ul {
     margin-right: 16rem;
 }
 
+.stage__content:last-child {
+    margin-right: 0;
+}
+
 .stage__title {
     font-size: 5rem;
     line-height: 1.2;
@@ -252,5 +262,94 @@ ul {
     bottom: -5.5rem;
     right: 5.5rem;
 }
+
+.card__content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 19rem;
+}
+
+.card {
+    padding-left: 3rem;
+    padding-top: 3rem;
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 #e1e4ed;
+    width: 360px;
+}
+
+.card:hover {
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(104, 82, 237, 0.8);
+    background-image: linear-gradient(to top, #6852ed, #ba43fc);
+}
+
+.card__title {
+    font-size: 2.2rem;
+    line-height: 1.5;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.card__text {
+    color: #716c80;
+    font-size: 1.8rem;
+    padding-bottom: 3.5rem;
+}
+
+.card-link {
+    display: none;
+}
+
+.card:hover img {
+    display: none;
+}
+
+.card:hover .card__title {
+    color: #fff;
+    padding-top: 0.5rem;
+}
+
+.card:hover .card__text {
+    color: #fff;
+}
+
+.card:hover .card-link {
+    display: inline-block;
+    color: #fff;
+    padding-top: 1.4rem;
+    padding-bottom: 3.5rem;
+}
+
+.girl-hero {
+    margin-right: 10rem;
+}
+
+.medium-stage__title {
+    font-size: 2.8rem;
+    line-height: 1.5;
+    padding-bottom: 4.7rem;
+    padding-right: 15rem;
+}
+
+
+/* .video-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 14rem;
+}
+
+.video-content h2 {
+    padding-right: 0;
+    padding-bottom: 3.8rem;
+}
+
+.video-content__text {
+    text-align: center;
+
+} */
+
 
 /*transform: translateX(-50%); */
