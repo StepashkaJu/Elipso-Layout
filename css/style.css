@@ -360,7 +360,7 @@ ul {
     margin-right: 3rem;
 }
 
-/* .article__content_reverse {
+.article__content_reverse {
     margin-right: 12rem;
 }
 
@@ -372,7 +372,7 @@ ul {
 .article-hero_reverse {
     width: 50%;
     flex-shrink: 0;
-} */
+}
 
 /* .video-content {
     position: relative;
