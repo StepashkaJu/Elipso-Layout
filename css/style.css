@@ -625,12 +625,12 @@ ul {
     border-radius: 10px;
     box-shadow: 0 0 20px 0 #e1e4ed;
     background-color: #fff;
-    margin-right: 3rem;
     width: 360px;
-    height: 616px;
+    height: 650px;
     display: flex;
     flex-direction: column;
     padding-left: 6rem;
+    margin: auto;
 }
 
 .tarif__header {
@@ -674,7 +674,7 @@ ul {
     font-size: 1.6rem;
     line-height: 1.31;
     color: rgba(91, 87, 102, 0.8);
-    margin-top: 1.7rem;
+    margin-top: 1rem;
 }
 
 .tarif__list {
@@ -714,6 +714,53 @@ ul {
     padding: 0;
     padding-top: 1.5rem;
     text-align: center;
+}
+
+
+.support__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12rem;
+}
+
+.support {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.support__content {
+    margin-left: 2.5rem;
+}
+
+.support__title {
+    margin-bottom: 2.5rem;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #554d89;
+}
+
+.support__text {
+    margin-bottom: 3.5rem;
+    font-size: 1.8rem;
+    line-height: 1.56;
+    color: #716c80;
+}
+
+.fa-circle-question {
+    font-size: 3.2rem;
+    font-weight: 300;
+    line-height: 1;
+    color: #6852ed;
+}
+
+.fa-question {
+    font-size: 3.2rem;
+    font-weight: 300;
+    line-height: 1;
+    color: #6852ed;
 }
 
 /*transform: translateX(-50%); */
