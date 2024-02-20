@@ -68,12 +68,6 @@ h3 {
     margin: 0 auto;
 }
 
-/* .background {
-    max-width: 1143px;
-    height: 480px;
-    margin-top: 14.4rem;
-} */
-
 .divider {
     border: none;
     border-bottom: 1px solid #e1e4ed;
@@ -237,8 +231,9 @@ ul {
 
 .btn-bottom {
     position: absolute;
-    bottom: -9.5rem;
-    left: 45%;
+    bottom: -12rem;
+    left: 50%;
+    transform: translateX(-50%);
     background-color: #6852ed;
     color: #ffffff;
     width: 11rem;
@@ -276,6 +271,7 @@ ul {
     border-radius: 10px;
     box-shadow: 0 0 20px 0 #e1e4ed;
     width: 360px;
+    height: 240px;
 }
 
 .card:hover {
@@ -415,54 +411,54 @@ ul {
 
 .left-circle {
     position: absolute;
-    top: 7rem;
-    left: 3rem;
-    width: 18rem;
-    height: 18rem;
+    top: 70px;
+    left: 30px;
+    width: 180px;
+    height: 180px;
     background-color: #ba43fc;
     border-radius: 50%;
 }
 
 .right-circle {
     position: absolute;
-    top: 10rem;
-    left: 180rem;
+    top: 100px;
+    right: 0;
 }
 
 .med-pink-circle {
     position: absolute;
-    top: 5rem;
-    left: 36rem;
+    top: 50px;
+    left: 350px;
 }
 
 .small-pink-circle {
     position: absolute;
-    top: 5rem;
-    left: 128rem;
+    top: 50px;
+    right: 25%;
 }
 
 .small-purpl-circle {
     position: absolute;
-    top: 27rem;
-    left: 32rem;
+    top: 270px;
+    left: 320px;
 }
 
 .big-purpl-circle {
     position: absolute;
-    top: 31rem;
-    left: 147rem;
+    top: 310px;
+    right: 15%;
 }
 
 .shape-left {
     position: absolute;
-    top: 38rem;
-    left: 5rem;
+    top: 380px;
+    left: 50px;
 }
 
 .shape-right {
     position: absolute;
     top: 0;
-    left: 172rem;
+    right: 0;
 }
 
 .services {
@@ -579,13 +575,17 @@ ul {
     background-color: #f5ecfe;
     position: relative;
     margin: 14rem 0;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .call__section-content {
     display: flex;
     justify-content: space-between;
-    padding: 6.5rem 39rem;
+    padding: 6.5rem;
+    height: 100%;
+    align-items: center;
+    width: 1143px;
+    margin: auto;
 
 }
 
@@ -598,7 +598,7 @@ ul {
 .call-small-pink {
     position: absolute;
     top: 1.4rem;
-    left: 165rem;
+    right: 165px;
     width: 50px;
     height: 50px;
     background-color: #ba43fc;
@@ -607,12 +607,22 @@ ul {
 
 .call-small-ppl {
     position: absolute;
-    bottom: 0px;
+    bottom: -20px;
     right: 2%;
     width: 111px;
     height: 111px;
     background-color: #6852ed;
     border-radius: 50%;
+}
+
+.call-oval {
+    position: absolute;
+    width: 206px;
+    height: 475px;
+    background-color: #6852ed;
+    border-radius: 50%/20%;
+    transform: rotate(45deg);
+    bottom: -380px;
 }
 
 .tarif-section {
@@ -770,6 +780,7 @@ ul {
     height: 500px;
     background-color: #f3edfe;
     position: relative;
+    overflow: hidden;
 }
 
 .footer__container {
@@ -777,8 +788,8 @@ ul {
     justify-content: space-between;
     position: absolute;
     top: 11rem;
-    left: 39rem;
     width: 1143px;
+    z-index: 1;
 }
 
 .footer-subscribe {
@@ -932,6 +943,53 @@ ul {
     font-size: 1.6rem;
     line-height: 1.69;
     color: #716c80;
+}
+
+.circle-purple {
+    background-color: #6852ed;
+    position: absolute;
+}
+
+.footer-circle-huge {
+    width: 485px;
+    height: 1213px;
+    border-radius: 245px;
+    transform: rotate(45deg);
+    top: -106px;
+    left: -14px;
+}
+
+.footer-circle-big {
+    width: 101px;
+    height: 101px;
+    right: 141px;
+    border-radius: 50%;
+}
+
+.footer-circle-small {
+    width: 20px;
+    height: 20px;
+    top: 400px;
+    right: 347px;
+    border-radius: 50%;
+}
+
+.footer-cut-circle {
+    width: 101px;
+    height: 101px;
+    top: 475px;
+    border-radius: 50%;
+    left: 50%;
+}
+
+.footer-circle-pink {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 349px;
+    right: 268px;
+    border-radius: 50%;
+    background-color: #ba43fc;
 }
 
 /*transform: translateX(-50%); */
